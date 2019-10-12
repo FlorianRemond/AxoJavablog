@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">coucou</string>
+    <string name="title_activity_read">Read</string>
+    <string name="title_activity_validation">validation</string>
+
+    <string name="password">Mot de passe</string>
+    <string name="btnValider">Connexion</string>
+    <string name="username">Nom</string>
+    <string name="not_register">Pas enregistré : </string>
+    <string name="register">S\'enregistrer</string>
+    <string name="raz">Raz</string>
+    <string name="confirmez_le_mot_de_passe">Confirmez </string>
+    <string name="d_j_enregistr">Déjà Enregistré :</string>
+    <string name="enregister">Connexion</string>
+    <string name="adresse_mail">Adresse mail</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="btnvalider">Connexion</string>
+    <string name="bienvenu_sur_l_axoblog">Bienvenu sur l\'axoblog</string>
+    <string name="ajouter_un_article">Ajouter un article</string>
+    <string name="editer_un_article">Editer un article</string>
+    <string name="supprimer_un_article">Supprimer un article</string>
+    <string name="ajouter_une_image">Ajouter une image</string>
+    <string name="contenu_de_qualit_de_l_article">Contenu de qualité de l\'article</string>
+    <string name="supprimer">Supprimer</string>
+
+</resources>

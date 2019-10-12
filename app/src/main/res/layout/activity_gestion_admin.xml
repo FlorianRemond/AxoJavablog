@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/axofond"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".GestionAdminActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/axologo"/>
+
+    <Button
+        android:id="@+id/btnAjouterArticle"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:background="#ffffff"
+        android:text="@string/ajouter_un_article" />
+
+    <Button
+        android:id="@+id/btnEditerArticle"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:text="@string/editer_un_article" />
+
+    <Button
+        android:id="@+id/btnSupprimerArticle"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:text="@string/supprimer_un_article" />
+
+
+
+</LinearLayout>

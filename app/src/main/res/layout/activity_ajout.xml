@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/axofond"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AjoutActivity">
+
+
+    <EditText
+        android:id="@+id/editInsTitreArticle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Insérer titre de l'article"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editInsContenuArticle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="@string/contenu_de_qualit_de_l_article"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/insBtnImg"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:text="@string/ajouter_une_image" />
+
+    <Button
+        android:id="@+id/insBtnPublier"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:text="Publier l'article" />
+
+
+</LinearLayout>
